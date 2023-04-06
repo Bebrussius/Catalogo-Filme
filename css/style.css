@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;   
+  box-sizing: border-box;
+}
+
+body{
+  justify-content: center;
+  background: #DFDFE6;
+}
+
+.card button{
+  background-color: #fff;
+  border: 1px solid #d5d9d9;
+  border-radius: 8px;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  box-sizing: border-box;
+  color: #0f1111;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Amazon Ember",sans-serif;
+  font-size: 13px;
+  line-height: 29px;
+  padding: 0 10px 0 11px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  width: 100px;
+}
+
+.card button:hover {
+  background-color: #f7fafa;
+}
+
+.card button:focus {
+  border-color: #008296;
+  box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-46 {
+    font-size: 20px;
+    min-width: 200px;
+    padding: 14px 16px;
+  }
+}
+#lista-filmes{
+  display: flex;
+  justify-content:space-between;
+  flex-wrap: wrap;
+  padding: 12px;
+  width: 90;
+  text-align: center;
+}
+
+#mostrar-filme{
+  display: flex;
+  justify-content: center;
+}
+
+#mostrar-filme .card{
+  width: 50vw;
+  align-self: center;
+  margin-top: 10vh;
+}
+
+.card{
+  width: 37vh;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+.card img{
+  height: 50vh;
+
+}
+
+@media (max-width:650px) {
+  #lista-filmes{
+    justify-content: space-evenly;
+  }
+}
